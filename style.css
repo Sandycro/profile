@@ -6,6 +6,7 @@
   }
 }
 @media (max-width: 960px) {
+ .container {
     width: 700px;
   }
 }
@@ -19,8 +20,10 @@ body {
   background-color: #dae1e7;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-left: 32;
+  margin-right: 32;
 }
 
 h1 {
@@ -64,10 +67,7 @@ ul li {
 }
 
 img {
-  display: block;
   margin-top: 16px;
-  margin-left: auto;
-  margin-right: auto;
   height: 200px;
   width: 200px;
   border-radius: 50%
@@ -76,17 +76,17 @@ img {
 .card {
   text-align: : center;
   background: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 3px;
   box-shadow: 0 30px 30px
-  width: 500px;
+  width: 400px;
   margin-top: 16px
 }
 
-i class {
-  font-size: 400px;
+.container {
+  text-align: : center;
+  width: 500px;
+  margin-top: 16px
 }
-
-
 
 
