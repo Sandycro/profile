@@ -1,14 +1,14 @@
-
-@media (max-width: 800px) {
-  /* For a screen < 720px, this CSS will be read */
+@media (max-width: 720px) {
+  /* For a screen < 540px, this CSS will be read */
   .container {
-    width: 200px;
+    width: 300px;
   }
 }
 
+
 .container {
-  margin: 16px auto;
-  max-width: 800px;
+  margin: 0 auto;
+  max-width: 720px;
   background: white;
   border-radius: 32px;
   padding:16px;
@@ -97,5 +97,4 @@ a {
 a :hover {
   color: #40bad5;
 }
-
 
